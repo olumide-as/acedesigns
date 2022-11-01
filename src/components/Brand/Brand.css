@@ -1,0 +1,20 @@
+.ace__brand{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.ace__brand p{
+font-family: var(--font-family);
+color: var(--color-text);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+text-align: justify;
+padding: 0rem 1rem;
+}
+
+.ace__brand img{
+    height: 24px;
+}

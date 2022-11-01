@@ -1,0 +1,39 @@
+.ace__portfolio {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.ace__portfolio img {
+ width: 500px;
+ height: 500px;
+ border-radius: 0.5rem;
+ object-fit: cover;
+ -webkit-box-shadow:0px 0px 10px 5px #dedede ;
+-moz-box-shadow:0px 0px 10px 5px #dedede ;
+box-shadow:0px 0px 10px 5px #dedede ;
+filter: grayscale(100%);
+}
+
+.ace__portfolio p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    padding: 1rem;
+    text-align: center;
+}
+
+.ace__portfolio:hover{
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.ace__portfolio:hover img{
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.ace__portfolio:hover p{
+color: var(--color-bg);
+
+}

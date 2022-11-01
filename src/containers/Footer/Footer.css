@@ -1,0 +1,31 @@
+.ace__footer{
+    background-color: var(--color-bg-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ace__footer p{
+font-family: var(--font-family);
+color: var(--color-text);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-align: justify;
+}
+
+.ace__footer img{
+    width: 200px;
+}
+
+@media screen and (max-width:768px) {
+    .ace__footer{
+        flex-direction: column;
+    }
+
+    .ace__footer p{
+        padding: 2rem;
+    }
+    
+}

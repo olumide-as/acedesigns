@@ -1,0 +1,27 @@
+
+  .video-responsive {
+    background-color: var(--color-sub);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+.video-responsive iframe {
+    border-radius: 1rem;
+  }
+
+  .video-responsive a {
+    background-color: var(--color-bg);
+    padding: 0.3rem 1rem;
+    color: var(--color-text);
+    border-radius: 1rem;
+  }
+
+  .video-responsive a:hover {
+    transition: 0.5s ease-out;
+    letter-spacing: 0.5px;
+    color: var(--color-text);
+
+  }
+
+

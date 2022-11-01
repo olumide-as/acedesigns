@@ -1,0 +1,25 @@
+.ace__gallery{
+    padding: 8rem 0rem 0rem 0rem;
+}
+
+.react-tabs__tab p {
+    color: var(--color-text);
+  }
+
+  .react-tabs__tab--selected p{
+    color: var(--color-bg-2);
+  }
+
+  .ace__gallery-portfolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 0rem;
+    justify-content: center;  
+
+}
+
+.ace__gallery-portfolio img{
+  width: 200px;
+  height: 200px;
+}
